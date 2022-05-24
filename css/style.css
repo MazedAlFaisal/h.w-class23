@@ -1,0 +1,105 @@
+/*
+Theme Name: MyFolio
+Author: My Folio
+Version: 1.0.0
+
+
+Table of Content
+=================================
+
+   1. Common Css
+   2. Nav Section
+   3. Banner Section
+*/
+
+
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a,a:hover{
+   text-decoration: none;
+}
+.form-control{
+   border: none;
+}
+.form-control:focus{
+   box-shadow: none;
+   background: none;
+   border-color: transparent;
+}
+.secInfo h2 {
+   font-size: 46px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #02918c;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+nav{
+   background-color: #02918c;
+}
+/* //Nav Section Css End */
+
+/* Banner Section Css Start */
+#banner::after{ 
+   background-color: rgba(0,0,0.66);
+   opacity: 0.66;
+}
+#banner .banner_slider_item{
+   height: 728px;
+   background-size: cover !important;
+   background-position: center !important;
+}
+
+/* //Banner Section Css End */
+
+/* //About Section Css start */
+#about{
+   padding: 98px 0;
+}
+about .sec_info p{
+   width: 874px;
+}
+#about .about_item{
+   width: 25%;
+   color: #7e8287;
+   border-right: 1px solid #d9dbdb;
+   padding: 37px 65px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+   
+}
+#about .about_item:last-child{
+   border-right-color: transparent;
+
+
+}
+#about .about_item p{
+   font-size: 11px;
+   line-height: 21px;
+}
+/* //About Section Css start */
+/* //services section css start*/
+
+/* //services section css end*/
+/* //my work secction css start*/
+
+/* //my work secction css end*/
+.contact_form input{
+   background: none;
+   color: red;
+}
+.contact_form input:focus{
+   color: red;
+}
+.contact_form input::placeholder{
+   color: red;
+}
